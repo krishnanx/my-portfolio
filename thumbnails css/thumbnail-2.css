@@ -1,0 +1,23 @@
+.thumbnail-2{
+    margin-top:80px;
+}
+.thumbnail-2 img{
+    display: flex;
+    width:350px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.channel-2{
+    display: flex;
+    align-items:top;
+}
+.channel-2 img{
+    border-radius:90px;
+    width:40px
+}
+.info{
+    width:300px;
+    font-family: roboto,arial;
+    font-size: 14px;
+    font-weight:510;
+}

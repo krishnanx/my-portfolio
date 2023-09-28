@@ -1,0 +1,43 @@
+.icons-div{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width:50vw;
+    height:50px;
+}
+.gmail{
+    width:40px;
+    transition: width 0.4s;
+}
+.gmail:hover{
+    width:50px;
+   
+    
+
+}
+.github{
+    width:40px;
+    transition: width 0.4s;
+
+}
+.github:hover{
+    width:50px;
+}
+.instagram{
+    width:37px;
+    transition: width 0.4s;
+}
+.instagram:hover{
+    width:50px;
+}
+.linkedin{
+    width:35px;
+    transition: width 0.4s;
+}
+.linkedin a img{
+    border-radius:6px;
+}
+.linkedin:hover{
+    width:45px;
+}

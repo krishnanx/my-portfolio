@@ -1,0 +1,85 @@
+body{
+    background-color:rgba(3,3,0,255);
+    padding-bottom: 4000px;
+}
+.backgrdimg{
+    display:flex;
+}
+.flexbox1{
+    display:flex;
+}
+.flexbox2{
+    display:flex;
+}
+.intro{
+    position:absolute;
+    font:open sans,arial;
+    color: aquamarine;
+    font-size:60px;
+    padding-left:900px;
+    padding-top:150px;
+    
+}
+.intro1{
+    position:absolute;
+    font:open sans,arial;
+    color: aquamarine;
+    font-size:60px;
+    padding-left:900px;
+    padding-top:220px;
+    
+}
+.myself{
+    position:absolute;
+    font:open sans,arial;
+    color: aquamarine;
+    font-size:40px;
+    padding-left:900px;
+    padding-top:380px;
+
+}
+.myself1{
+    position:absolute;
+    font:open sans,arial;
+    color: aquamarine;
+    font-size:40px;
+    padding-left:900px;
+    padding-top:420px;
+
+}
+.hobbie{
+    position:absolute;
+    font:open sans,arial;
+    color: aquamarine;
+    font-size:40px;
+    padding-left:300px;
+    padding-top:800px;
+    
+}
+.hobbie1{
+    position:absolute;
+    font:open sans,arial;
+    color: aquamarine;
+    font-size:40px;
+    padding-left:300px;
+    padding-top:850px;
+    
+}
+.hobbie2{
+    position:absolute;
+    font:open sans,arial;
+    color: aquamarine;
+    font-size:40px;
+    padding-left:300px;
+    padding-top:900px;
+    
+}
+.heading{
+    position:absolute;
+    font:open sans,arial;
+    color: aquamarine;
+    font-size:60px;
+    padding-left:300px;
+    padding-top:700px;
+    
+}
