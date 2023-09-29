@@ -1,4 +1,8 @@
-/*@media screen and (max-width:1152px){
+
+
+
+/*
+@media screen and (max-width:1152px){
     .hero{
         width:100vw;
     }
@@ -36,17 +40,68 @@
 
 
 }*/
-@media only screen and (max-width:1162px){
-    .NAME{
-        width:60vw;
-        height:50vh;
+@media screen and (min-width:300px){
+    .hero{
+        width:300px
     }
-    .myskills{
-        height:90vh;
+    .inside-hero{
+        width:200px
+    }
+    .NAME{
+        width:200px;
+        height:90px;
+    }
+    .NAME p{
+        font-size:1rem;
+    }
+    .gmail{
+        width:28px
+    }
+    .github{
+        width: 28px;
+    }
+    .instagram{
+        width:25px;
+    }
+    .linkedin{
+        width:26px;
+    }
+    .gif-1,gif-2{
+        width:35vw
 
     }
+    .gif-1 img{
+        width:100px;
+        height:100px;
+        padding-right: 14px;
+    }
+    .gif-2 img{
+        width:100px;
+        height: 100px;
+        animation: myanimation1 4s ease-in-out 3s infinite alternate;
+    }
+    @keyframes myanimation1 {
+        0%{
+            transform: translate(0px);
+        }
+        100%{
+            transform: translate(60vw);
+        }
+    }
+    
+    .about-me{
+        width:70vw;
+        height:30vh;
+    }
+    .inside-about-me h1{
+        font-size: 1rem;
+    }
+    .inside-about-me p{
+        font-size:0.5rem
+    }
 }
-@media screen and (max-width:969px){
+    
+@media screen and (min-width:969px){
     .NAME{
         width:65vw;
     }
@@ -58,10 +113,309 @@
         font-size:0;
 
         }
+    .inside-about-me h1{
+        font-size: 2.5rem;
+    }
+    .inside-about-me p{
+        font-size: 1rem;;
+    }
+    ul.list1 li{
+        font-size: 1rem;
+    }
+    .heading-3 h1{
+        font-size: 3rem;
+    }
+    .gif-5 img{
+        width:20vw;
+        height:25vh;
+    }
 
 }
 
-@media screen and (max-width: 901px){
+
+@media only screen and (min-width:1162px){
+    .NAME{
+        width:60vw;
+        height:50vh;
+    }
+    .myskills{
+        height:90vh;
+
+    }
+}
+
+
+@media only screen and (min-width:1200px){
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0       ;
+    }
+    
+    body{
+        background-color:#adbdff;
+    }
+    .hero{
+        min-height: 90vh;
+        /* min-width: 100vw; */
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column;
+        margin-bottom:100px;
+        /* margin-left:70px; */
+    }
+    .NAME{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top:20px;
+        width:50vw;
+        height: 40vh;
+        
+    }
+    
+    .NAME p{
+        font-size:3rem;
+        font-family:Montserrat;
+    }
+    
+    .HI{
+        margin-top: 0;
+        margin-bottom:30px;
+        font-size: 6rem;
+    }
+    .welcome{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .heading-1{
+        display: flex;
+        flex-direction: row;
+    }
+    .heading-2{
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .inside-hero{
+        display: flex;
+        flex-direction:column;
+        width:85vw;
+        justify-content:space-around;
+        align-items: center;
+        
+    }
+    .about-me{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 120px;
+        height:83vh;
+        width:95vw;
+        /* margin-left:40px; */
+    }
+    .inside-about-me h1{
+        font-family:Pixelify Sans;
+        font-size:4rem;
+    }
+    .inside-about-me p{
+        font-size: 1.5rem;
+        font-family:Montserrat;
+    }
+    .inside-about-me{
+        width:80vw;
+        display:flex;
+        flex-direction: column;
+    }
+    .about-me-desc{
+        width: 50vw;
+    }
+    
+    .intro-1{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .intro-2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items:center;
+    }
+    .intro-3{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+    
+        width:80vw
+    }
+    .journey-desc{
+        width:50vw;
+    }
+    .the-end{
+        display: flex;
+        width:95vw;
+    }
+    .inside-the-end{
+        display:flex;
+        flex-direction:row;
+        justify-content: space-between;
+        width:95vw;
+    }
+    .icons-div{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width:50vw;
+        height:50px;
+    }
+    .gmail{
+        width:40px;
+        transition: width 0.4s;
+    }
+    .gmail:hover{
+        width:50px;
+       
+        
+    
+    }
+    .github{
+        width:40px;
+        transition: width 0.4s;
+    
+    }
+    .github:hover{
+        width:50px;
+    }
+    .instagram{
+        width:37px;
+        transition: width 0.4s;
+    }
+    .instagram:hover{
+        width:50px;
+    }
+    .linkedin{
+        width:35px;
+        transition: width 0.4s;
+    }
+    .linkedin a img{
+        border-radius:6px;
+    }
+    .linkedin:hover{
+        width:45px;
+    }
+    .whatsapp{
+        width:40px;
+    }
+    .gif-1 ,.gif-2{
+        width:90vw;
+        position: relative;
+    }
+    .gif-1 img{
+        width:175px;
+        height:175px;
+    }
+    .gif-2 img{
+        width:175px;
+        height:175px;
+        animation: myanimation1 4s ease-in-out 3s infinite alternate;
+    }
+    @keyframes myanimation1 {
+        0%{
+            transform: translate(0px);
+        }
+        100%{
+            transform: translate(80vw);
+        }
+    }
+    
+    .gif-3 img{
+        width: 150px;
+        height:150px;
+    
+    }
+    .gif-4 img{
+        width: 150px;
+        height:150px;
+    
+    
+    }
+    .gif-5 img{
+        width:175px;
+        height:175px;
+    }
+    .gif-5{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .myskills{
+        min-height: 90vh;
+        /* min-width: 100vw; */
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column;
+        
+    }
+    .aninmation{
+        width:90vw;
+        position: relative;
+        
+    }
+    .inside-myskills{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    ul.list1{
+        list-style-type: square;
+        width:50vw;
+        height:90vh;
+        
+    }
+    ul.list1 li{
+        font-family: Montserrat;
+        font-size: 1.5rem;
+        margin-bottom:10px;
+    }
+    .heading-3 h1{
+        font-family: Pixelify Sans;
+        font-size: 4rem;
+        margin-bottom: 10px;
+    
+    }
+    .connect{
+        display: flex;
+        justify-content:space-between;
+        width:30vw;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    .wannaconnect{
+        font-family:Montserrat ;
+        font-size:30px;
+    }
+    .wannaconnect p{
+        padding-left:14px;
+        margin-bottom:10px;
+    }
+    .inside-connect{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+    
+}
+
+
+
+/*@media screen and (max-width: 901px){
     .NAME p{
         font-size:2.5rem;
     }
@@ -72,12 +426,12 @@
     }
 
     
-}
+}*/
 
 
 
 
-@media only screen and (max-width:900px){
+/*@media only screen and (max-width:900px){
     .about-me-desc{
         width: 75vw;
     }
@@ -110,4 +464,4 @@
         width:60vw;
         height:40vh;
     }
-}
+}*/
