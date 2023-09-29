@@ -1,0 +1,113 @@
+/*@media screen and (max-width:1152px){
+    .hero{
+        width:100vw;
+    }
+    .inside-hero{
+        width:95vw;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items:flex-start;
+    }
+    .pic{
+        border-radius: 400px;
+        width:40vw;
+        height: 19vh;
+        border: dashed;
+    }
+    .img{
+        width:60vw;
+        height:30vh;
+        border: dashed;
+        justify-content: center;
+        align-items: center;
+        margin-left:150px;
+    }
+    .NAME{
+        border: dashed;
+        width:60vw;
+        height:30vh;
+        align-items: center;
+        
+    }
+    .NAME p{
+        font-size:4vw;
+
+    }
+
+
+}*/
+@media only screen and (max-width:1162px){
+    .NAME{
+        width:60vw;
+        height:50vh;
+    }
+    .myskills{
+        height:90vh;
+
+    }
+}
+@media screen and (max-width:969px){
+    .NAME{
+        width:65vw;
+    }
+    .about-me{
+        width:90vw;
+        height: 60vh;
+    }
+    .intro-1{
+        font-size:0;
+
+        }
+
+}
+
+@media screen and (max-width: 901px){
+    .NAME p{
+        font-size:2.5rem;
+    }
+}
+@media screen and (max-width:807px){
+    .NAME p{
+        font-size:2rem;
+    }
+
+    
+}
+
+
+
+
+@media only screen and (max-width:900px){
+    .about-me-desc{
+        width: 75vw;
+    }
+    .NAME{
+        width:60vw;
+        height:40vh;
+    }
+}
+@media only screen and (max-width:600px){
+    .about-me-desc{
+        width: 95vw;
+    }
+    .NAME{
+        width:60vw;
+        height:10vh
+    }
+    .myskills{
+        height:40vh;
+
+}
+}
+@media only screen and (max-width:700px){
+    .NAME{
+        width:60vw;
+        height:30vh;
+    }
+}
+@media only screen and (max-width:500px){
+    .NAME{
+        width:60vw;
+        height:40vh;
+    }
+}

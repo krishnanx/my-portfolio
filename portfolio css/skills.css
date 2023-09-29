@@ -1,0 +1,57 @@
+.myskills{
+    min-height: 90vh;
+    /* min-width: 100vw; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    
+}
+.aninmation{
+    width:90vw;
+    position: relative;
+    
+}
+.inside-myskills{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+ul.list1{
+    list-style-type: square;
+    width:50vw;
+    height:90vh;
+    
+}
+ul.list1 li{
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    margin-bottom:10px;
+}
+.heading-3 h1{
+    font-family: Pixelify Sans;
+    font-size: 4rem;
+    margin-bottom: 10px;
+
+}
+.connect{
+    display: flex;
+    justify-content:space-between;
+    width:30vw;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.wannaconnect{
+    font-family:Montserrat ;
+    font-size:30px;
+}
+.wannaconnect p{
+    padding-left:14px;
+    margin-bottom:10px;
+}
+.inside-connect{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}

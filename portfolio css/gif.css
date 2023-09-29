@@ -1,0 +1,41 @@
+.gif-1 ,.gif-2{
+    width:90vw;
+    position: relative;
+}
+.gif-1 img{
+    width:175px;
+    height:175px;
+}
+.gif-2 img{
+    width:175px;
+    height:175px;
+    animation: myanimation1 4s ease-in-out 3s infinite alternate;
+}
+@keyframes myanimation1 {
+    0%{
+        transform: translate(0px);
+    }
+    100%{
+        transform: translate(80vw);
+    }
+}
+
+.gif-3 img{
+    width: 150px;
+    height:150px;
+
+}
+.gif-4 img{
+    width: 150px;
+    height:150px;
+
+
+}
+.gif-5 img{
+    width:175px;
+    height:175px;
+}
+.gif-5{
+    display: flex;
+    justify-content: flex-start;
+}
