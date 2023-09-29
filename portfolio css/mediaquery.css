@@ -107,7 +107,7 @@
     }
     .about-me{
         width:90vw;
-        height: 60vh;
+        min-height: 60vh;
     }
     .intro-1{
         font-size:0;
@@ -139,7 +139,7 @@
         height:50vh;
     }
     .myskills{
-        height:90vh;
+        min-height:90vh;
 
     }
 }
@@ -157,7 +157,7 @@
     }
     .hero{
         min-height: 90vh;
-        /* min-width: 100vw; */
+        min-width: 100vw;
         display:flex;
         justify-content: center;
         align-items: center;
@@ -213,7 +213,7 @@
         align-items: center;
         justify-content: center;
         margin-bottom: 120px;
-        height:83vh;
+        min-height:83vh;
         width:95vw;
         /* margin-left:40px; */
     }
