@@ -225,7 +225,7 @@
     .gif-3 img{
         display:none;
     }
-    .gif-4{
+    .gif-4 img{
         display: none;
     }
     .gif-5{
@@ -269,20 +269,6 @@
     }
     
 }
-
-
-@media only screen and (min-width:1162px){
-    .NAME{
-        width:60vw;
-        height:50vh;
-    }
-    .myskills{
-        min-height:90vh;
-
-    }
-}
-
-
 @media only screen and (min-width:1200px){
     *{
         box-sizing: border-box;
@@ -292,9 +278,16 @@
     .gif-x img{
         display: none;
     }
+    .gif-y img{
+        display: none;
+    }
+    .gif-z img{
+        width:120px;
+        height:140px;
+    }
     .hero{
-        min-height: 90vh;
-        min-width: 98vw;
+        min-height:90vh;
+        width:97vw;
         display:flex;
         justify-content: center;
         align-items: center;
@@ -308,7 +301,7 @@
         align-items: center;
         justify-content: center;
         margin-top:20px;
-        width:50vw;
+        min-width:50vw;
         height: 40vh;
         
     }
@@ -329,17 +322,18 @@
     }
     .heading-1{
         display: flex;
-        flex-direction: row;
+        flex-direction:column;
     }
     .heading-2{
         display: flex;
-        justify-content: flex-end;
+        flex-direction: column;
+        justify-content:center;
     }
     
     .inside-hero{
         display: flex;
         flex-direction:column;
-        width:85vw;
+        min-width:85vw;
         justify-content:space-around;
         align-items: center;
         
@@ -350,7 +344,7 @@
         align-items: center;
         justify-content: center;
         margin-bottom: 120px;
-        min-height:93vh;
+        min-height:120vh;
         min-width:95vw;
         /* margin-left:40px; */
     }
@@ -368,7 +362,17 @@
         flex-direction: column;
     }
     .about-me-desc{
-        width: 50vw;
+       min-width:60vw;
+       min-height:20vh;
+
+    }
+    .part-2{
+        display: flex;
+        justify-content: flex-end;
+        min-width:60vw;
+    }
+    .part-1{
+        min-height: 14vh;
     }
     
     .intro-1{
@@ -376,6 +380,7 @@
         flex-direction:row;
         justify-content: space-between;
         align-items: center;
+        min-width:50vw;
     }
     .intro-2{
         display: flex;
@@ -391,11 +396,18 @@
         width:80vw
     }
     .journey-desc{
-        width:50vw;
+        width:60vw;
+        min-height:15vh;
+    }
+    .journey-desc p {
+        font-size: 24px;
+        width:65vw;
+        min-height:15vh;
     }
     .the-end{
         display: flex;
         width:95vw;
+        height:28vh
     }
     .inside-the-end{
         display:flex;
@@ -473,30 +485,36 @@
     
     .gif-3 img{
         display: flex;
-        width: 150px;
-        height:150px;
+        padding-bottom:25px;
+        width: 160px;
+        height:190px;
     
+    }
+    .gif-4{
+        width:160px;
+        height:190px;
     }
     .gif-4 img{
-        
-        width: 150px;
-        height:150px;
-    
-    
+        display:block;
+        padding-bottom:35px;
+        width: 160px;
+        height:190px;
     }
     .gif-5 img{
-        width:175px;
+        display: none;
+        width:140px;
         height:175px;
     }
     .gif-5{
         display: flex;
         justify-content: flex-start;
+        width:15vw
     }
     .myskills{
-        min-height: 90vh;
+        min-height: 95vh;
         /* min-width: 100vw; */
         display:flex;
-        justify-content: center;
+        justify-content:space-between;
         align-items: center;
         flex-direction:column;
         
@@ -530,8 +548,8 @@
     }
     .connect{
         display: flex;
-        justify-content:space-between;
-        width:30vw;
+        justify-content:flex-start;
+        min-width:30vw;
         border-top-right-radius: 10px;
         border-top-left-radius: 10px;
     }
@@ -549,7 +567,43 @@
         justify-content:center;
         align-items: center;
     }
-    
+    .inside-heading-3{
+        height:12vh;
+        width:30vw
+    }
+    .heading-3{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        min-height:20vh;
+   }
+    .gif-5{
+        display:none;
+   }
+    .ani-1{
+        width:12vw;
+        min-height: 28vh;
+        -webkit-transform:rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+   }
+    .ani-1 img{
+        min-width:8vw;
+        min-height:25vh
+   }
+    .inside-the-end{
+        justify-content: space-between;
+   }
+    .gif-6{
+        min-width:10vw;
+        min-height:25vh;
+    }
+    .gif-6 img{
+        min-width:10vw;
+        min-height:28vh;
+    }
 }
 
 
