@@ -41,6 +41,9 @@
 
 }*/
 @media screen and (min-width:300px){
+    .navbar{
+        display: none;
+    }
     .hero{
         width:100vw;
         min-height: 90vh;
@@ -121,19 +124,21 @@
         }
     }
     .part-1 h1{
-        padding-top:30px;
+        padding-top:50px;
+
     }
     .gif-x img{
-        height:80px;
+        height:15vh;
+        width:35vw;
     }
     .gif-y img{
-        height:90px;
-        width: 70px;
+        height:110px;
+        width: 80px;
         padding-bottom:15px;
     }
     .gif-z img{
-        height:70px;
-        width:70px;
+        height:100px;
+        width:90px;
         padding-bottom: 10px;
     }
     .about-me{
@@ -159,7 +164,7 @@
     }
     .heading-3{
         min-width:80vw;
-        min-height: 12vh;
+        min-height:20vh;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -176,7 +181,7 @@
     }
     .part-2{
         min-width:90vw;
-        height:12vh;
+        height:20vh;
         align-items: center;
     }
     .part-1 h1,.part-2 h1{
@@ -234,6 +239,12 @@
     .intro-2 img{
         display: none;
     }
+    .myskills{
+        min-height:90vh;
+    }
+    .inside-myskills{
+        height:80vh
+    }
     ul.list1 li{
         font-size:1rem;
     }
@@ -241,7 +252,7 @@
         min-width:80vw;
     }
     .the-end{
-        min-height:6vh;
+        min-height:50vh;
         min-width:98vw;
     }
     .inside-the-end{
@@ -249,7 +260,7 @@
         flex-direction:column;
         justify-content:space-between;
         min-width: 95vw;
-        min-height:4vh;
+        min-height:20vh;
 
     }
     .connect{
@@ -267,9 +278,58 @@
         width:100px;
         height:120px;
     }
-    .projects{
-        display: none;  
+    .heading-4{
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content:space-between;
+        min-width:90vw;
+        min-height:15.5vh;
+
     }
+    .inside-heading-4{
+        width:50px;
+        min-height:10vh;
+    }
+    .inside-heading-4 h1{
+        padding-top:40px;
+        font-size: 3rem;
+    }
+    .gif-7 img{
+        width:150px;
+        height:170px;
+    }
+    .projects{
+        min-height:100vh;
+    }
+    .library{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .project-1{
+        min-width:90vw;
+    }
+    .project-1 h2{
+        font-size:1.4681rem;
+        min-width:80vw;
+        font-weight:900
+    }
+    .library-desc{
+        min-width:90vw
+    }
+    .library-desc p{
+        font-size: 1rem;
+        font-weight:900;
+    }
+    .library-desc ul li{
+        font-weight: 900;
+    }
+    .mystart-2,.mystart-1{
+        padding-top:50px
+    }
+    
     
 }
 @media only screen and (min-width:1200px){
@@ -286,7 +346,13 @@
     }
     .gif-z img{
         width:120px;
-        height:140px;
+        height:120px;
+    }
+    .navbar{
+        display:flex;
+        background-color: aqua;
+        min-width:90vw;
+        min-width:100px;
     }
     .hero{
         min-height:90vh;
@@ -410,14 +476,15 @@
     }
     .the-end{
         display: flex;
-        width:95vw;
-        height:28vh
+        margin-top:60px;
+        min-width:90vw;
+        min-height:28vh;
     }
     .inside-the-end{
         display:flex;
         flex-direction:row;
         justify-content: space-between;
-        width:95vw;
+        min-width:80vw;
     }
     .icons-div{
         display:flex;
@@ -515,7 +582,7 @@
         width:15vw
     }
     .myskills{
-        min-height: 95vh;
+        min-height:120vh;
         /* min-width: 100vw; */
         display:flex;
         justify-content:space-between;
@@ -622,11 +689,13 @@
         display: flex;
         flex-direction: column;
         min-height:90vh;
-        width: 80vw;
+        min-width: 80vw;
     }
     .heading-4{
         display:flex ;
         flex-direction:row;
+        justify-content:flex-start;
+        min-width:80vw;
         min-height:17vh;
         margin-bottom: 50px;
     }
@@ -634,6 +703,10 @@
         font-size:4rem;
         font-family:Pixelify Sans ;
 
+    }
+    .mywork{
+        min-height: 80vh;
+        min-width: 80vw;
     }
     .gif-7{
         width:150px;
@@ -645,6 +718,7 @@
     .inside-heading-4{
         display:flex;
         align-items: center;
+        min-width:25vw;
     }
     .mywork{
         display: flex;
@@ -661,6 +735,7 @@
     }
     .library-desc{
         min-height: 45vh;
+        min-width:80vw;
         display: flex;
         align-items: flex-start;
         padding: 20px;
@@ -676,6 +751,9 @@
     .library ul li{
         font-size: 1rem;
         font-family: Montserrat;
+    }
+    .project-1{
+        min-width:80vw;
     }
 
 }
