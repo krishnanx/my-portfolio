@@ -1,6 +1,4 @@
 # my-portfolio
-# Portfolio Website Project
-
 ## Table of Contents
 - [About]
 - [Getting Started]
